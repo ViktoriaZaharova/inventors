@@ -1253,6 +1253,11 @@ strong {
 .good-summer__image {
   max-width: 935px;
   width: 100%; }
+  .good-summer__image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 .good-summer__content {
   display: -webkit-box;
@@ -2312,6 +2317,22 @@ footer {
             align-items: center; }
   .footer-bottom p {
     margin: 0 5px; }
+
+@media only screen and (max-width: 1540px) {
+  .kids-children__image {
+    max-width: 638px; }
+  .good-summer__image {
+    max-width: 767px; } }
+
+@media only screen and (max-width: 1390px) {
+  .good-summer__image {
+    max-width: 600px; }
+  .kids-children__image {
+    max-width: 500px; }
+  .kids-children__content {
+    margin: 0 57px 0 0; }
+  .good-summer__content {
+    margin: 0 0 0 48px; } }
 
 @media only screen and (max-width: 1200px) {
   .container {
